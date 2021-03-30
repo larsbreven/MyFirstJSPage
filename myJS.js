@@ -1,19 +1,16 @@
  "use strict";
-  var myH1 = document.getElementsByTagName("h1")[0];  // 
+  var myH1 = document.getElementsByTagName("h1")[0];   
 
   console.log(myH1); 
 
-  myH1.innerHTML = "My first JavaScript page";        // 
-  myH1.style.color = "Red";                           // 
+  myH1.innerHTML = "My first JavaScript page";        
+  myH1.style.color = "Red";                           
 
   // myBoard.innerHTML = "<div><p>box in box</p></div>"; // 
   // myBoard.innerHTML = ""; // Här raderar man div och p och allt som finns inom "body". Används med försiktighet. 
 
   var myButtonCreate = document.getElementById("createTTTB");
-
   myButtonCreate.addEventListener("click", makeTicTacToeBoard);
-  
-
 
 
   function makeTicTacToeBoard() {
